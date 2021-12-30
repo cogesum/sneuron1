@@ -44,7 +44,7 @@ while(neuron.check_training()):
     print(f"Iteration {str(iteration)} | Weight {str(neuron.get_weight())}")
     iteration += 1
 
-print("--Successful training--")
+print("-Successful training-")
 print(neuron.get_weight())
 print(neuron.procces_input_data(input_data))
 
